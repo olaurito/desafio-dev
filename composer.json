@@ -1,0 +1,24 @@
+{
+  "name": "cnab/teste",
+  "description": "Teste cnab Upload de arquivo txt.",
+  "version": "1.0.0",
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "Olaurito Neto",
+      "email": "ndigital.mkt@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    }
+  },
+  "require": {
+    "ext-pdo": "*"
+  }
+}
